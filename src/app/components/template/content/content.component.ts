@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { PedidoService } from '../pedido/pedido.service';
 import { Bebida } from './bebida.model';
-import { Pizza } from './pizza.model';
+import { dadosproduto } from './dados-produto.model';
 import { ProdutosService } from './produtos.service';
 
 @Component({
@@ -11,27 +11,27 @@ import { ProdutosService } from './produtos.service';
 })
 export class ContentComponent implements OnInit {
 
-  pizzasArray: Pizza[] = [];
+  produtosArray: dadosproduto[] = [];
   bebidasArray: Bebida[] = [];
 
   constructor(private produtosService: ProdutosService, private pedidoService: PedidoService) { }
 
   ngOnInit(): void {
-    this.getPizzas();
+    this.getprodutos();
   }
 
-  getPizzas() {
+  getprodutos() {
     this.produtosService.getProdutos().subscribe(data => {
-      this.pizzasArray = data.pizzas;
+      this.produtosArray = data.produtos;
       this.bebidasArray = data.bebidas;
     });
   }
 
-  addPizzaPedido(id: number) {
-    this.pizzasArray.forEach((value)=> {
+  addProdutoPedido(id: number) {
+    this.produtosArray.forEach((value)=> {
       if(value.id === id){
         this.pedidoService.getPedidoValues(value.name, value.price);
-        this.pedidoService.openSnackBar('Pizza adicionada!');
+        this.pedidoService.openSnackBar('Produto adicionado!');
       }
     });
   }

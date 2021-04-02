@@ -6,7 +6,7 @@
   margin-right: 8px;
 }
 
-.mat-card-pizza, .mat-card-bebida{
+.mat-card-uai, .mat-card-bebida{
   padding-top: 10px;
   margin: 10px;
   margin-top: 30px;
@@ -22,13 +22,13 @@
   height: 40px;
 }
 
-.pizza-header-image, .bebida-header-image {
+.uai-header-image, .bebida-header-image {
   background-image: url('../../../../assets/card/cardapio.svg');
   background-size: 85%;
   background-repeat: no-repeat;
 }
 
-.img-bebida, .img-pizza {
+.img-bebida, .img-uai {
   display: flex;
   justify-content: center;
   align-self: center;
@@ -41,7 +41,7 @@
   width: 60%;
 }
 
-.img-pizza img{
+.img-uai img{
   width: 95%;
 }
 

@@ -1,7 +1,7 @@
 export interface Produto {
-  pizzas: any[];
+  produtos: any[];
   bebidas: any[];
-    // pizzas: [
+    // produtos: [
     //   {
     //     id: number,
     //     name: string,
