@@ -1,0 +1,48 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { 
+  margin: 0; 
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  
+}
+
+.mat-form-field.mat-focused .mat-form-field-ripple {
+  background-color: #ff033c;
+}
+
+.color-white {
+  color: #fff;
+}
+
+.color-gray {
+  color: #333;
+}
+
+.color-pink{
+  color: #ff033c;
+}
+
+.bg-pink {
+  background: #ff033c;
+}
+
+.bg-yellow {
+  background: #ffff8c;
+}
+
+.mat-tab-group.mat-primary .mat-ink-bar, .mat-tab-nav-bar.mat-primary .mat-ink-bar {
+  background-color: #ff033c;
+}
+
+.mat-progress-spinner circle, .mat-spinner circle {
+  stroke: #ff033c;
+}
+
+.txt-center{
+  text-align: center;
+}
+
+.link-a {
+	text-decoration: none;
+}

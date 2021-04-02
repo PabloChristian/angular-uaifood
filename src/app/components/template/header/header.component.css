@@ -1,0 +1,43 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.icon-header {
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+.title {
+  font-family: 'Galindo', 'Roboto';
+  margin-left: 15px;
+  font-size: 1.5rem;
+  color: #333;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+}
+
+button {
+  color: #ff033c;
+}
+
+button i {
+  font-size: 1.7rem;
+  padding-right: 4px;
+  padding-bottom: 2px;
+}
+
+
+@media screen and (max-width: 600px) {
+  button span {
+    display: none;
+  }
+
+  button i {
+    padding-right: 0;
+  }
+}

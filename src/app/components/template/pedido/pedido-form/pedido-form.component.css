@@ -1,0 +1,47 @@
+mat-form-field {
+  width: 100%;
+}
+
+mat-label {
+	color: #ff033c;
+}
+
+.mat-form-field-subscript-wrapper{
+	background-color: #ff033c;
+}
+
+.numero {
+  width: 30%;
+}
+
+.complemento {
+  width: 70%;
+}
+
+.btn-dialog {
+  display: flex;
+  justify-content: flex-end;
+  color: #333;
+}
+
+.btn-dialog button {
+  background-color: #ffff8c;
+}
+
+/*.dialog-icon {
+  padding-bottom: 3px;
+}*/
+
+@media screen and (max-width: 600px) {
+  .btn-dialog{
+    justify-content: center;
+  }
+
+  .btn-dialog button .span-icon {
+    display: none;
+  }
+
+  button .dialog-icon {
+    padding-right: 0;
+  }
+}

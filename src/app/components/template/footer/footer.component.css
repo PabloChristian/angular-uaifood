@@ -1,0 +1,74 @@
+.footer-content {
+  min-height: 120px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-content div{
+  width: 60%;
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: #333;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.footer-content div a {
+  color: #333;
+}
+
+.icon-title {
+  padding-right: 4px;
+}
+
+.redes {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  padding-top: 15px;
+}
+
+.redes p {
+  padding: 10px;
+}
+
+.redes a > i {
+  font-size: 1.8rem;
+}
+
+.fa-facebook {
+  color: #1877f2;
+}
+
+.fa-whatsapp-square {
+  color: #00e676;
+}
+
+.fa-instagram {
+  color: #ba33ac;
+}
+
+.fa-store {
+  color: #ff033c;
+}
+
+.fa-map-marker-alt {
+  color: green;
+}
+
+.fa-laptop-code {
+  color: darkslateblue;
+}
+
+.fa-github {
+  color: #333;
+  padding: 5px;
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 600px) {
+  .footer-content div {
+    width: 80%;
+  }
+}
