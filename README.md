@@ -1,6 +1,6 @@
-<h1>Uai <span style="color: #ff033c">Food Delivery</span></h1>
+<h1><span style="color: #ff033c">Uai Food Delivery</span></h1>
 
-<img src="./src/assets/header/food.jpg" width="60"></img>
+<img src="./src/assets/header/food.jpg" width="500"></img>
 
 <p>Aplicação de delivery de comida, feita em Angular, uai sô!</p>
 ## :hammer: **Tecnologias Usadas** :wrench:
