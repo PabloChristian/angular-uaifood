@@ -6,14 +6,19 @@
   margin-right: 8px;
 }
 
-.mat-card-uai, .mat-card-bebida{
+.mat-card-comida, .mat-card-bebida{
   padding-top: 10px;
   margin: 10px;
   margin-top: 30px;
 }
 
+.titulo-grupo{
+  color: black;
+  font-size:20px;
+  font-weight: 700;
+}
 .avatar {
-  height: 50px;
+  height: 100px;
   width: 50px;
   border: none;
 }
@@ -22,27 +27,27 @@
   height: 40px;
 }
 
-.uai-header-image, .bebida-header-image {
-  background-image: url('../../../../assets/card/cardapio.svg');
+.comida-header-image, .bebida-header-image {
   background-size: 85%;
   background-repeat: no-repeat;
 }
 
-.img-bebida, .img-uai {
+.img-bebida, .img-comida {
   display: flex;
   justify-content: center;
   align-self: center;
   margin-top: 10px;
   border-radius: 5px;
-  height: 60%;
+  height: 150px;
+  width: 250px;
 }
 
 .img-bebida img {
-  width: 60%;
+  width: 65%;
 }
 
-.img-uai img{
-  width: 95%;
+.img-comida img{
+  width: 65%;
 }
 
 .price {

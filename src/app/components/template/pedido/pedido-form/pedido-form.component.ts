@@ -21,10 +21,10 @@ export class PedidoFormComponent implements OnInit {
   }
 
   concluirPedido(): void {
-    let texto = `*Nome:* ${this.nome};\n*Bairro:* ${this.bairro};\n*Rua:* ${this.rua};\n*Número:* ${this.numero};\n*Complemento:* ${this.complemento};\n*Troco para:* ${this.troco}\n\n`;
+    let texto = `Olá! sou o ${this.nome}, acabei de realizar o pedido. Segue os dados:;\nBairro: ${this.bairro};\nRua: ${this.rua};\nNúmero: ${this.numero};\nComplemento: ${this.complemento};\nTroco para: ${this.troco}\n\n`;
     let textoURI = encodeURIComponent(texto);
 
-    window.open(`https://api.whatsapp.com/send?phone=5585996455918&text=${textoURI}${this.pedidoService.pedidoURI}`);
+    window.open(`https://api.whatsapp.com/send?phone=5531999079989&text=${textoURI}${this.pedidoService.pedidoURI}`);
     
   }
 }
