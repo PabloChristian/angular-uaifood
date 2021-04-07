@@ -32,6 +32,6 @@
 
 Baixe o projeto, digite `npm install` e depois digite `ng serve` para iniciar a aplicação. Navegue até `http://localhost:4200/`.
 
-## Executando o Servidor Node
+#### Executando o Servidor Node
 
 Baixe o projeto, acesse o diretório 'server', digite `npm install` e depois digite `npm start` para iniciar a aplicação. Navegue até `http://localhost:3100/api/produtos`.
