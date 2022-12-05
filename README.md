@@ -2,7 +2,7 @@
 
 <img src="./src/assets/header/food.jpg" width="500"></img>
 
-<p>Aplicação de delivery de comida, feita em Angular, uai sô!</p>
+<p>Food delivery application made in Angular and NodeJS</p>
 
 ## Tecnologias<br>
 <ul>
@@ -16,22 +16,22 @@
 
 ## Imagens
 
-#### Tela Principal - Grupo Comidas
+#### Home - Food Group
 <img src="./docs/prints/tela-principal-comidas.png">
 
-#### Tela Principal - Grupo Bebidas
+#### Home - Drink Group
 <img src="./docs/prints/tela-principal-bebidas.png">
 
-#### Lista de Pedido
+#### Order List
 <img src="./docs/prints/tela-pedido.png">
 
-#### Formulário de Pedido
+#### Order Formulary
 <img src="./docs/prints/formulario-pedido.png">
 
-#### Executando a Aplicação Angular
+#### Executing the application
 
-Baixe o projeto, digite `npm install` e depois digite `ng serve` para iniciar a aplicação. Navegue até `http://localhost:4200/`.
+Download the project, type `npm install` and then `ng serve` to start the application. Navigate to URL `http://localhost:4200/`.
 
-#### Executando o Servidor Node
+#### Executing the Node server
 
-Baixe o projeto, acesse o diretório 'server', digite `npm install` e depois digite `npm start` para iniciar a aplicação. Navegue até `http://localhost:3100/api/produtos`.
+Download the project, acess the directory 'server', type `npm install` and then `npm start` to start the application. Navigate to URL `http://localhost:3100/api/produtos`.
